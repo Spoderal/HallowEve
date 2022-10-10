@@ -2,7 +2,7 @@ const {REST} = require('@discordjs/rest')
 const {Routes} = require('discord-api-types/v9')
 require('dotenv').config();
 const mongoose = require("mongoose")
-
+//ready
 module.exports = {
     name: "ready",
     once: true,
