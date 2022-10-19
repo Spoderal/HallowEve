@@ -1,0 +1,10 @@
+{
+    "ghost":{
+        "emoji":"👻",
+        "name":"Ghost Costume",
+        "Price":5,
+        "Alt":"GH0ST",
+        "AltEmote":"<:ghostie:1032357979913203835>",
+        "Image":"https://i.ibb.co/vmXSXLJ/ghostie.png"
+    }
+}

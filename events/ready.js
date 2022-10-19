@@ -8,9 +8,10 @@ module.exports = {
     once: true,
     async execute(client, commands) {
         console.log("Ready!")
+        client.user.setActivity("Scaring you for eternity.")
         const CLIENT_ID = client.user.id 
     await mongoose.connect(
-        process.env.TESTDB, {
+        process.env.DB, {
           keepAlive: true
         }
       )
